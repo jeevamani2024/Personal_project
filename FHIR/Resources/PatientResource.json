@@ -1,0 +1,52 @@
+
+//https://hapi.fhir.org/baseR4/Patient/1234567
+{
+	"resourceType": "Patient",
+	"id": "1234567",
+	"meta": {
+		"versionId": "22",
+		"lastUpdated": "2025-07-22T16:48:22.291+00:00",
+		"source": "#7Cxsqtu1ZVA3r2Eu"
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jeeva <b>THANGAMANI </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>123 Health St </span><br/><span>New York </span><span>NY </span><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>01 June 1990</span></td></tr></tbody></table></div>"
+	},
+	"name": [
+		{
+			"use": "official",
+			"family": "Thangamani",
+			"given": [
+				"Jeeva"
+			]
+		}
+	],
+	"telecom": [
+		{
+			"system": "phone",
+			"value": "555-123-4567",
+			"use": "mobile"
+		}
+	],
+	"gender": "male",
+	"birthDate": "1990-06-01",
+	"address": [
+		{
+			"line": [
+				"123 Health St"
+			],
+			"city": "New York",
+			"state": "NY",
+			"postalCode": "10001",
+			"country": "USA"
+		}
+	],
+	"generalPractitioner": [
+		{
+			"reference": "Practitioner/48382826"
+		}
+	],
+	"managingOrganization": {
+		"reference": "Organization/48382950"
+	}
+}
